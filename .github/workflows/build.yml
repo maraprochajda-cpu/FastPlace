@@ -11,11 +11,11 @@ jobs:
         with:
           distribution: 'microsoft'
           java-version: '25'
+          cache: 'gradle'
       - name: Build with Gradle
-        run: chmod +x gradlew && ./gradlew build
+        run: gradle build
       - name: Upload Mod JAR
         uses: actions/upload-artifact@v4
         with:
           name: Fabric-Mod-JAR
           path: build/libs/*.jar
-
