@@ -1,0 +1,1 @@
+// Zdrojovy kod hlavni tridy
