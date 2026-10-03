@@ -1,4 +1,3 @@
-
 name: Build Mod
 on: [push, pull_request]
 jobs:
@@ -19,3 +18,4 @@ jobs:
         with:
           name: Fabric-Mod-JAR
           path: build/libs/*.jar
+
